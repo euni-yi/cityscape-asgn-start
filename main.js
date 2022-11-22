@@ -41,10 +41,21 @@ for (let x = 40; x <= 115; x = x + 23) {
 }
 
 // horizontal windows on left building
- for(let x=20; x<=70; x=x+20){
-     for(let y=400; y<=600; y=y+50){
-     ctx.fillStyle = "white";
-     ctx.fillRect(x, y, 50, 20);
-     }
- }
+
+for(let x=20; x<=70; x=x+20){
+  for(let y=400; y<=600; y=y+50){
+  ctx.fillStyle = "white";
+  ctx.fillRect(x, y, 50, 20);
+  }
+}
+
+// windows on right building
+for(let x=180; x<=270; x=x+20){
+  for(let y=120; y<=600; y=y+45){
+  ctx.fillStyle = "white";
+  ctx.fillRect(x, y, 10, 50);
+  }
+}
+
+
 
